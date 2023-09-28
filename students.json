@@ -1,0 +1,104 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Akhil",
+      "location": "Costa Rica",
+      "phone": "12345345345",
+      "courses": [
+        "Java",
+        "Selenium"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ankit",
+      "location": "Capri",
+      "phone": "12345345345",
+      "courses": [
+        "JavaScript",
+        "Cypress"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Anil",
+      "location": "Kuwala Lumpur",
+      "phone": "12345345345",
+      "courses": [
+        "Python",
+        "PyTest"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Akshay",
+      "location": "Florida",
+      "phone": "12345345345",
+      "courses": [
+        "CSharp",
+        "NUnit"
+      ]
+    },
+    {
+      "phone": "12354634445345",
+      "name": "Subhadra",
+      "location": "Missisippi",
+      "courses": [
+        "C++",
+        "WebAssembly"
+      ],
+      "id": 6
+    },
+    {
+      "courses": [
+        "C#",
+        "ASP.NET"
+      ],
+      "phone": "64354684354654",
+      "name": "Mickey",
+      "location": "DisneyLand",
+      "id": 8
+    },
+    {
+      "courses": [
+        "Twenty",
+        "Hitter"
+      ],
+      "phone": "653468435",
+      "name": "Chris Gayle",
+      "location": "West Indies",
+      "id": 12
+    },
+    {
+      "courses": [
+        "DelhiCricket",
+        "BangloreStadium"
+      ],
+      "phone": "54351683535",
+      "name": "Virat",
+      "location": "Delhi",
+      "id": 13
+    },
+    {
+      "name": "Gautam",
+      "location": "DelhiDareDevils",
+      "phone": "542316831685",
+      "courses": [
+        "Ranji",
+        "IPL-Winner"
+      ],
+      "id": 14
+    },
+    {
+      "courses": [
+        "FreeStyle",
+        "Wresting"
+      ],
+      "phone": "68453146843",
+      "name": "John Cena",
+      "location": "WWE",
+      "id": 15
+    }
+  ]
+}
