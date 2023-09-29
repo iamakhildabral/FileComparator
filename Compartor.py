@@ -19,13 +19,22 @@ with open(output_file_name, 'w') as output_file:
         if line1 != line2:
             total_comparisons += 1
             output_file.write(f"Comparison {total_comparisons} (Line {i}):\n")
-            output_file.write(f"Line 1: {line1.strip()}\n")
-            output_file.write(f"Line 2: {line2.strip()}\n")
+            output_file.write(f"Line 1: \n{line1.strip()}\n")
+            output_file.write(f"{line2.strip()}\nLine 2: ")
 
+            # Find and report the differing portion
             # Find and report the differing portion
             for j in range(min(len(line1), len(line2))):
                 if line1[j] != line2[j]:
-                    output_file.write(f"Differing portion: {line1[j:j+10]} | {line2[j:j+10]}\n")
+                    starting_point = j
+                    while(j<len(line1)):
+                        j+= 1
+                        if(line1[j] == line2[j]):
+                            break
+
+                    differing_portion1 = line1[starting_point:j]
+                    differing_portion2 = line2[starting_point:j]
+                    output_file.write(f"Differing portion at col:{starting_point+1} {differing_portion1} | {differing_portion2}\n")
                     break
 
             output_file.write("\n")
